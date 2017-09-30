@@ -14,4 +14,4 @@ $(document).ready(() => {
 	$("#theme-chooser").on('change', function() {
 		loadStyleSheet($(this).val());
 	});
-})
+});
